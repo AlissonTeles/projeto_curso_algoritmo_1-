@@ -16,4 +16,4 @@ if (passou && (media >= 70 && media <=90)){
     alert("Muito bom, ficou acima de 70% da turma")
 } 
 else
-    alert("Reprovado ") // tem um problema que ta mostrando o else e o fi ao mesmo tempo
+    alert("Reprovado ") 
