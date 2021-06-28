@@ -1,21 +1,20 @@
-// criar uma calculadora, em uma função para colocar no botão utilizando apenas if e else if
-function butaocalcular() { // função para podemos utiliza la no botão 
-var nota, nota1, operacao, resultado; // variaveis
-nota = prompt("Digite o primeiro numero: ")  // digite
-operacao = prompt("Escolha: +, -, x , / ") // digite
-nota1 = prompt("Digite o segundo numero: ") // digite
+function butaocalcular() { 
+var nota, nota1, operacao, resultado; 
+nota = prompt("Digite o primeiro numero: ")  
+operacao = prompt("Escolha: +, -, x , / ") 
+nota1 = prompt("Digite o segundo numero: ")
 
-if (operacao == "+"){ // if se for soma
+if (operacao == "+"){ 
     resultado = (parseInt(nota)  + parseInt(nota1) )
-}else if (operacao == "-"){ // "elif" se for menos
+}else if (operacao == "-"){ 
     resultado = (parseInt(nota) - parseInt(nota1) )   
-}else if (operacao == "x"){ // "elif" caso for multiplicação
+}else if (operacao == "x"){ 
     resultado = (parseInt( nota )  * parseInt( nota1 ) )
-}else if (operacao == "/"){ // "elif" caso for divisão
+}else if (operacao == "/"){ 
     resultado = (parseInt(nota) / parseInt(nota1))
 }
 else // caso der erro
     alert("FATAL ERRO")
-document.getElementById("paragrafo").innerText = resultado // mostrar o codigo na tela
+document.getElementById("paragrafo").innerText = resultado 
 }
 
